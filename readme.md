@@ -1,1 +1,1 @@
-# Repository for Kaggle competitions
+# Repository for Kaggle competition codes
