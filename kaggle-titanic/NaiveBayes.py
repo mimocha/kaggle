@@ -1,3 +1,10 @@
+"""
+	Kaggle Titanic Competition -- 2020-02-11
+	kaggle/mimocha
+	github/mimocha
+	Chawit Leosrisook
+"""
+
 import Evaluate
 
 """

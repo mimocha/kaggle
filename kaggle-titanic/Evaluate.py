@@ -1,3 +1,9 @@
+"""
+	Kaggle Titanic Competition -- 2020-02-11
+	kaggle/mimocha
+	github/mimocha
+	Chawit Leosrisook
+"""
 
 def accuracy (prediction, goldstandard):
 	if len(prediction) != len(goldstandard):
@@ -13,6 +19,10 @@ def accuracy (prediction, goldstandard):
 
 	return score / max
 
+"""
+	Function for f-measure
+	Returns 0 for division by zero
+"""
 def fmeasure (prediction, goldstandard, warn=True):
 	if len(prediction) != len(goldstandard):
 		print('Error: F1 Measure length mismatch!')
